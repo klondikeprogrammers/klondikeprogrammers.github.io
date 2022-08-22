@@ -1,24 +1,30 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Error 404</title>
-    <link href="/img/favicon1.ico" rel="shortcut icon" />
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="/css/main.min.css">
-	<style>
-        .disclaimer {display :none; }
-    </style>
+<script src="cdn-cgi/apps/head/HgEkPdSixnSdgojCRjiPoKwDXoA.js"></script><link rel="stylesheet" href="assets/css/style.css">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="company_modules.js"></script>
 </head>
 <body>
-	<div class="backgroud_img">
-	<body style="background-image: url('/img/black.png');">
-	<a href="https://klondikeprogrammers.ga" class="return">Вернуться на главную страницу</a>	
-	<div class="numberError">
-		<h1 class="error" data-text="404">404</h1>
-	</div>
-	<h2 class="notFound">Страница не найдена</h2>
-    <br>
-    <h2 class="help" align="center">Ви наверно неправельно написали в адресной строке силку на страницу сайта</h2>
+<br>
+<div class="h404">
+    <h1>404<h1><br>
+    <p>Page Not Found</p>
+	</div>	
+<h2 style="text-align: center;">Redirecting... <span id="timer">Wait...</span></h2>
+<script type="text/javascript">
+			var index = 11;
+			setInterval(function() {
+				index--;
+				let redirect = document.getElementById("timer").innerHTML = index;
+				if (index == 1) {
+					location = "/"
+				}
+			}, 990)
+		</script>
+<noscript>
+			<meta http-equiv="refresh" content="0;/">
+		</noscript>
 </body>
 </html>
