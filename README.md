@@ -1,2 +1,1 @@
 # klondikeprogrammers.github.io
-**.**
