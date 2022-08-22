@@ -1,2 +1,2 @@
 # klondikeprogrammers.github.io
-**secret**
+**.**
