@@ -1,1 +1,2 @@
-ErrorDocument 404 https://klondikeprogrammers.ga/404
+RewriteEngine On
+ErrorDocument 404 https://klondikeprogrammers.ga/404/index.html
