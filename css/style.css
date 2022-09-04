@@ -338,14 +338,14 @@ ol {
 	background: #131313;
 	clear: both;
 	overflow: hidden;
-	padding: 8px 0;
+	padding: 18px 0;
 	border-bottom: 1px solid #ffb320;
 }
 
 .site-logo {
 	display: inline-block;
 	float: left;
-	padding-top: 3px;
+	padding-top: 6px;
 }
 
 .user-panel {
@@ -401,11 +401,7 @@ ol {
 ---------------------*/
 
 .hero-slider .hs-item {
-<<<<<<< HEAD
-	height: 575px;
-=======
-	height: 576px;
->>>>>>> 15dfa7758343d7bb73798a7df01ad231c695d1d9
+	height: 865px;
 	display: table;
 	width: 100%;
 }
@@ -1437,7 +1433,7 @@ ol {
 		padding: 8px 15px;
 	}
 	.hero-slider .hs-text h2 {
-		font-size: 40px;
+		font-size: 50px;
 	}
 	.hero-slider .owl-dots {
 		max-width: 690px;
