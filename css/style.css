@@ -76,11 +76,14 @@ textarea:focus {
     margin-left: 4%;
 }
 
-.like {
-    width: 26px;
-    margin-left: 291px;
-    margin-top: -62px;
-}
+.btn-top{
+    display: none;
+    position: fixed;
+    width: 50px;
+    bottom: 81px;
+    right: 11px;
+    z-index: 1000;
+  }
 
 #counter {
     color: #ff8100;
